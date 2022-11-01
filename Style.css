@@ -1,0 +1,197 @@
+body{
+   background-color: #d8dce6;
+}
+#titulo{
+    margin-left: 35%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #2D00A8;
+    font-size: 2em;
+    margin-top: 2%;
+}
+#painel{
+    background-color: #2D00A8;
+    width: 55vw;
+    height: 73vh;
+    margin-left: 21%;
+    margin-top: 3%;
+    border: 5px solid #fff;
+    border-radius: 10%;
+}
+.conv{
+    margin-left: 18%;
+    margin-top: 6%;
+    width: 5vw;
+
+}
+input{
+    border: solid 3px #000000;
+    width: 25vh;
+    height: 4.8vh;
+    margin-left: 210%;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 13%;
+}
+button{
+    margin-top: 6%;
+    padding: 15%;
+    margin-bottom: 18%;
+    width: 20vh;
+    margin-left: 245%;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2D00A8;
+    border: 2px solid #fff;
+}
+#limpar{
+    margin-top: 60%;
+    padding: 18%;
+    margin-bottom: 18%;
+    width: 20vh;
+    margin-left: 252%;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #2D00A8;
+    border: 2px solid #fff;
+}
+button:hover{
+    background-color: #251d57;
+}
+#limpar:hover{
+    background-color: #251d57;
+}
+
+@media(max-width: 976PX){
+    #titulo{
+        margin-left: 30%;
+    }
+}
+@media(max-width: 796PX){
+    #titulo{
+        margin-left: 25%;
+    }
+    .conv{
+        margin-top: 5%;
+        margin-left: 14%;
+    }
+    button{
+        margin-bottom: 25%;
+        margin-top: 17%;
+        margin-left: 255%;
+    }
+
+}
+@media(max-width: 694PX){
+    #titulo{
+        margin-left: 20%;
+    }
+    .conv{
+        margin-top: 8%;
+        margin-left: 12%;
+    }
+    button{
+        margin-left: 270%;
+    }
+
+}
+@media(max-width: 564PX){
+    #titulo{
+        margin-left: 24%;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+        margin-top: 3%;
+    }
+    .conv{
+        margin-top: 15%;
+        margin-left: 8%;
+    }
+
+}
+@media(max-width: 478PX){
+    #titulo{
+        margin-left: 26%;
+        font-size: 1.3rem;
+        margin-top: 5%;
+    }
+    .conv{
+        margin-top: 16%;
+        margin-left: 7%;
+    }
+    button{
+        margin-left: 290%;
+    }
+    #painel{
+        margin-top: 6%;
+        width: 60vw;
+    }
+
+}
+@media(max-width: 394PX){
+    #titulo{
+        margin-left: 26%;
+        font-size: 1.1rem;
+        margin-top: 7%;
+    }
+    .conv{
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+    #painel{
+        margin-top: 10%;
+       height: 65vh;
+     }
+    input{
+        width: 30vw;
+  
+    }
+    button{
+        width: 30vw;
+        margin-left: 240%;
+    }
+
+}
+@media(max-width: 390px){
+    #painel{
+        height: 50vh;
+        margin-top: 12%;
+        width: 60vw;
+    }
+    .conv{
+        margin-left: 6%;
+        margin-top: 13%;
+    }
+    #limpar{
+        margin-top: 400%;
+        margin-left: 95%;
+    }
+}
+@media(max-width: 298PX){
+    #titulo{
+        font-size: 0.8rem;
+        margin-left: 20%;
+        margin-top: 8%;
+    }
+    .conv{
+        margin-top: 16%;
+        margin-left: 5%;
+    }
+    #painel{
+        margin-top: 13%;
+       height: 63vh;
+       width: 70vw;
+       margin-left: 10%;
+     }
+    input{
+        width: 40vw;
+    }
+    button{
+        width: 40vw;
+        margin-left: 240%;
+    }
+
+}
+
+
+
+
